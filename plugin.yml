@@ -1,0 +1,22 @@
+name: TeleportPortal
+main: TeleportPortal\TeleportPortal
+version: 2.7.0
+api:
+ - 3.0.1
+load: POSTWORLD
+author: anseEND
+
+commands:
+  go:
+    description: Create a portal
+    permission: TeleportPortal.go.command
+  ftext:
+    description: Create a floating text
+    permission: TeleportPortal.ftext.command
+permissions:
+  TeleportPortal.go.command:
+    description: 
+    default: op
+  TeleportPortal.ftext.command:
+    description: 
+    default: op
